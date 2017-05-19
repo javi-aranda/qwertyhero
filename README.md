@@ -1,2 +1,2 @@
 # qwertyhero
-a look-alike guitar hero made for linux cli
+a look-alike buggy guitar hero made for linux cli in few hours
