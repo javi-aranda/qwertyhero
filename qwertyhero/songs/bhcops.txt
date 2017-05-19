@@ -1,0 +1,7 @@
+# BH Cops
+
+NOTAS=(2 5 2 2 6 5 4 3 6 3 3 6 5 4 1 2 6 5 3 3 2 4 1) #input de las notas (columna en la que aparecen)
+TECLAS=(w t w w y t r e y e e y t r q w y t e e w r q) #input de las teclas (correspondencia con NOTAS)
+DURACIONES=(-l460 -l340 -l230 -l110 -l230 -l230 -l230 -l460 -l340 -l230 -l110 -l230 -l230 -l230 -l230 -l230 -l230 -l110 -l230 -l110 -l230 -l230 -l460) #input de la duracion
+FRECUENCIAS=(-f659 -f784 -f659 -f659 -f880 -f659 -f587 -f659 -f988 -f659 -f659 -f1047 -f988 -f784 -f659 -f988 -f1318 -f659 -f587 -f587 -f494 -f740 -f659) #input de los sonidos
+LONG=${#NOTAS[@]}
