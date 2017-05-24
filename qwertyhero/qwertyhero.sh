@@ -65,6 +65,8 @@ function main {
                 if [ "$nota" = "${TECLAS[$in]}" ]; then 
                     beep ${DURACIONES[$in]} ${FRECUENCIAS[$in]}
                     puntos=$(($puntos+50))
+		else
+			sleep 0.33 # si la nota no es correcta, hace la pausa igualmente para que no se descontrole
                 fi
                 nota= # eliminar el valor almacenado de la nota
             fi
