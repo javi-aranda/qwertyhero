@@ -88,14 +88,12 @@ function main {
 #-------------------------------------------------------------------------------------
 function menu {
     clear
-    select o in "Nueva Partida" "Escoger Canción" "Top Puntuaciones" "Salir"; do
+    select o in "Nueva Partida" "Escoger Canción" "Salir"; do
         case $o in
             "Nueva Partida")
                 main ;;
             "Escoger Canción")
                 canciones ;;
-            "Top Puntuaciones")
-                head puntoslog.txt ;;
             "Salir")
                 break
         esac
